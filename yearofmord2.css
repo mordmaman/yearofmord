@@ -1,0 +1,310 @@
+body {
+	margin: 0;  
+	padding: 0;
+	font-family: 'Armata', sans-serif;
+	
+}
+
+#home {
+	max-width: 100%;
+	height: 615px;
+	background-color: #03A9F4;
+	color: #ffffff;	
+}
+
+.content {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	width: 960px;
+	height: 750px;
+}
+
+.header {
+	margin: 0px 92px 0px 92px;
+	padding-top: 14px;
+	padding-bottom: 32px;
+	border-bottom: solid 2px #fff;
+	height: 32px;
+}
+
+h1 {
+	font-size: 20px;
+	margin-left: 8px;
+	display: inline-block;
+	line-height: 32px;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	display: inline-block;	
+}
+
+li {
+	/*display: inline;*/
+	float: left;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 20px;
+	border-radius: 16px;
+}
+
+.last {
+	margin-right: 0px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 178px;
+	height: 178px;
+    display: block;
+	margin-top: 36px;
+	margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto; 	
+}
+
+.tag {
+	text-align: center;
+	font-size: 46px;
+	line-height: 58px;
+	margin-top: 37px;
+	margin-bottom: 37px;
+}
+
+.downarrow {
+	width: 64px;
+	height: 64px;
+    display: block;
+	margin-top: 48px;
+	margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whatisthissite{
+	margin: auto;
+	padding: 0;
+	max-width: 100%;
+	height: 2050px;
+	background-color: #E1F5FE;
+	color: #000;
+}
+
+.section-head {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 28px;
+	/*line-height: 32px;*/
+	text-align: center;
+	padding: 48px 0 48px;
+	background: url(images/lines.png) center bottom no-repeat;
+	/*display: inline-block;*/
+}
+
+p {
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 40px;
+	line-height: 56px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.stats{
+	margin: 0px 150px 0px 150px;
+	border-bottom: 30px;
+	height: 560px;
+}
+
+.col1{
+	
+	width:150px;
+  	height:150px;
+	float: left;
+	margin-right: 100px;
+}
+
+.col2{
+	
+	float: left;
+	width:150px;
+  	height:150px;
+	margin-right: 100px;
+}
+
+.col3{
+	
+	width:150px;
+    height:150px;
+	float: left;
+}
+
+#learntocode {
+	margin: auto;
+	padding: 0;
+	max-width: 100%;
+	height: 450px;
+	color: #000;
+	background-color: #03A9F4;
+	text-align: center;
+}
+
+.ltcp {
+	border-bottom: 60px;
+}
+
+.btn {
+	font-size: 30px;
+    color: white;
+    text-align: center;
+	text-decoration: none;
+    display: inline-block;
+    height: 82px;
+    line-height: 82px;
+    border: 4px solid white;
+    border-radius: 5px;
+    width: 612px;
+    /*transition: all 0.15s linear;*/
+	margin-top: 30px;
+}
+
+.btn:hover
+{
+	background-image:none;
+	background-color:#000;
+	border-color: #000;
+}
+
+#morestuff{
+	margin: auto;
+	padding: 0;
+	max-width: 100%;
+	height: 650px;
+	background-color: #E1F5FE;
+	color: #000;
+	text-align: center;
+}
+
+dl {
+	display: inline-block; 
+	text-align: center;
+	line-height: 30px;
+}
+
+dl dt, dl dd{
+	width: 470px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+dl dd {
+	text-align: left;
+	margin-left: 20px;
+	font-weight: 400;
+}
+
+dl dt {
+	text-align: right;
+	font-weight: 600; 
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+#mcfc{
+	margin: auto;
+	padding: 0;
+	max-width: 100%;
+	height: 1850px;
+	background: url("images/mcfc/mcfcbackground.jpg") center center no-repeat;
+	background-size: cover;
+	/*background-color: #5CBFEB;*/
+	color: #000;
+	text-align: center;
+}
+
+#evenmorestuff{
+	padding-top: 48px;
+}
+
+.caption {
+	float: left;
+	text-align: center;
+	margin: 20px;  
+	padding: 0;
+}
+
+figcaption{
+	font-weight: 800; 
+}
+
+.goal-caption{
+	text-align: center;
+	margin: 20px;  
+	padding: 0;
+}
+
+.gk-caption {
+	border-radius: 50%;
+	width: 178px;
+	height: 178px;
+    display: inline-block;
+	margin-top: 36px;
+	margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.defence, .midone, .midtwo {
+	display: inline-block;
+}
+
+.defence-players, .mid-one, .mid-two {
+	border-radius: 50%;
+	width: 178px;
+	height: 178px;
+    
+	margin-top: 36px;
+	margin-bottom: 36px;
+   	/*margin-left: 20px;
+	margin-right: 20px;*/
+}
+
+/*.mid-one {
+	border-radius: 50%;
+	width: 178px;
+	height: 178px;
+    
+	margin-top: 36px;
+	margin-bottom: 36px;
+    margin-left: 28px;
+    margin-right: 28px; 	
+}
+
+.mid-two {
+	border-radius: 50%;
+	width: 178px;
+	height: 178px;
+    
+	margin-top: 36px;
+	margin-bottom: 36px;
+    margin-left: 28px;
+    margin-right: 28px;
+}*/
+
+
+/*.defence {
+	display: inline-block;	
+}*/
