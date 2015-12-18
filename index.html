@@ -3,7 +3,18 @@
 <head>
 <title>Year of Mord</title>
 <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 <link rel="stylesheet" href="yearofmord2.css">
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event) {
+    event.preventDefault();
+    $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 1000);
+    } );
+  } );
+</script>
+
 </head>
 <body>
 	<section id="home">
@@ -41,7 +52,7 @@
 				I needed more text to go here
 			</h2>
 			
-			<a href="#whatisthissite" class="next-section"><img class="downarrow" src="images/down.png"></a>
+			<a href="#whatisthissite" class="next-section scroll"><img class="downarrow" src="images/down.png"></a>
 		</div><!--closes content area-->
 	</section><!--closes top section-->
 	
